@@ -1,0 +1,15 @@
+x=int(input('give me number:'))
+y=int(input('give me number:'))
+z=int(input('give me number:'))
+if x<y+z:
+    if y<x+z:
+        if z<x+y:
+            print('ok')
+        else:
+            print('not ok')
+    else:
+        print('not ok')
+else:
+    print('not ok')
+
+         

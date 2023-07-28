@@ -1,0 +1,13 @@
+name=input('give me your name:')
+familyname=input('give me your family name:')
+score1=float(input('scor1:'))
+score2=float(input('scor2:'))
+score3=float(input('scor3:'))
+avg= (score1+score2+score3)/3
+if avg>=17:
+    print('great')
+if 12<=avg<17:
+    print('normal')
+if avg<12:
+    print('fail')
+
